@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#jogo {
+    text-align: center;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#pista {
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #333;
+    border: 5px solid #555;
+}
+
+#carro {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    top: 35px; /* Centraliza o carro na pista */
+    left: 0;
+    transition: left 0.1s; /* Suaviza o movimento */
+}
